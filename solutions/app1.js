@@ -1,6 +1,6 @@
 'use strict';
 const removeDuplicatesFromArray = (arr) => {
-    newArray = [];
+    const newArray = [];
     arr.forEach((a) => {
         if (!newArray.includes(a)) {
             newArray.push(a);
@@ -9,8 +9,7 @@ const removeDuplicatesFromArray = (arr) => {
     return newArray;
 }
 
-// const removeDuplicatesFromArray = arr.reduce((unique, item) =>
-//     unique.includes(item) ? unique : [...unique, item], [])
+
 
 
 
